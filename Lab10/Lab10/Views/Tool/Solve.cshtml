@@ -1,0 +1,9 @@
+﻿
+<h2 style="text-align:center;">@ViewBag.equation</h2>
+
+@foreach (var x in ViewBag.results)
+{
+
+    <h3>@Html.Label("solution", x, new { style = @ViewData["color"] });</h3>
+}
+

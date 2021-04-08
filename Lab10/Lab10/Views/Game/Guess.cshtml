@@ -1,0 +1,6 @@
+﻿
+@{ ViewData["Title"] = "Guess"; }
+
+<h1>@Html.Label("Answer", ViewData["result"] as string, new { style = @ViewData["color"] })</h1>
+
+<h2>@Html.Label("Info", ViewData["info"] as string, new { style = @ViewData["color"] })</h2>
